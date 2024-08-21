@@ -44,7 +44,7 @@
 
     <!-- header section start -->
 
-    <header class="container mx-auto pt-16">
+    <header class="container mx-auto pt-16 ">
         <nav class="navbar ">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -57,15 +57,12 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a><span class="font-bold">Home</span></a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+
                     </ul>
                 </div>
                 <button class="text-4xl flex items-center gap-1"><i
@@ -74,26 +71,22 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><span class="font-bold">Home</span></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
 
                 <div class="flex items-center gap-5">
-                    <div class="p-3 rounded-full border border-[#7e777791] bg-white size-12 flex justify-center items-center">
+                    <div
+                        class="p-3 rounded-full border border-[#7e777791] bg-white size-12 flex justify-center items-center">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="p-3 rounded-full border border-[#7e777791] bg-white size-12 flex justify-center items-center">
+                    <div
+                        class="p-3 rounded-full border border-[#7e777791] bg-white size-12 flex justify-center items-center">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                     <button class="btn rounded-full bg-home-primary font-[900] text-xl">Book Consult <i
@@ -105,16 +98,17 @@
         </nav>
 
         <!-- banner -->
-         <section class="flex flex-col justify-center items-center">
+        <section class="flex flex-col justify-center items-center">
             <img src="./assets/banner.png" alt="">
             <h1>A barn house of this design has a striking appearance</h1>
             <p>
-                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents, and large windows that flood the space with natural light.
             </p>
             <button class="btn rounded-full bg-home-primary font-[900] text-xl">Book Consult <i
-                class="fa-solid rounded-full bg-black p-2 size-8 text-white fa-arrow-up rotate-45"></i>
-        </button>
-         </section>
+                    class="fa-solid rounded-full bg-black p-2 size-8 text-white fa-arrow-up rotate-45"></i>
+            </button>
+        </section>
     </header>
 
     <!-- main section -->
