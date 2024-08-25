@@ -368,36 +368,67 @@
 
         <!-- form section hare -->
 
-        <section class="container mx-auto pt-16">
-            <div class="md:w-[678px] text-center mx-auto space-y-3">
-                <button class="btn rounded-full"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
-                <h1 class="text-[40px] font-extrabold">Let’s Discuss Next Project</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                    weathered wood, sleek metal accents.</p>
-            </div>
+        <section class="bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover">
+            <section class=" container mx-auto pt-16  ">
+                <div class="md:w-[678px] text-center mx-auto space-y-3">
+                    <button class="btn rounded-full"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
+                    <h1 class="text-[40px] font-extrabold">Let’s Discuss Next Project</h1>
+                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.</p>
+                </div>
 
 
-            <div class="flex">
-                <div class="gap-10">
-                    <input type="text" placeholder="First name" class="input input-bordered w-full max-w-xs" />
-                    <input type="text" placeholder="Last name" class="input input-bordered w-full max-w-xs" />
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-6 gap-4 lg:max-w-[970px] mx-auto py-14">
+                    <input type="text" placeholder="First name" class="input input-bordered w-full rounded-full " />
+                    <input type="text" placeholder="Last name" class="input input-bordered w-full rounded-full " />
+
+                    <input type="text" placeholder=" Phone number" class="input input-bordered w-full rounded-full ">
+                    <input type="text" placeholder="Email" class="input input-bordered w-full rounded-full ">
+
+                    <textarea class="textarea textarea-bordered lg:col-span-2 row-span-4" placeholder="Bio"></textarea>
                 </div>
-                <div>
-                    <input type="text" placeholder=" Phone number" class="input input-bordered w-full max-w-xs">
-                    <input type="text" placeholder="Email" class="input input-bordered w-full max-w-xs">
-                </div>
-                
-            </div>
+
+
+
+            </section>
         </section>
 
 
     </main>
 
     <!-- footer section -->
+    <footer class="  bg-[#1C1C1C] ">
 
-    <footer>
+        <div class="footer text-base-content rounded p-10 container mx-auto flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center gap-4 text-center">
+                <button class="text-3xl btn bg-transparent border-none hover:bg-transparent"><i
+                        class="fa-solid fa-arrow-up rotate-45 bg-home-primary rounded-full p-2 text-xl size-10"></i>
+                    <span class="font-bold text-white">Rinterio</span>
+                </button>
+                <p class="text-[#737373] md:w-[670px]">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered
+                    wood, sleek metal accents.
+                </p>
+            </div>
+            <nav class="flex items-center flex-col md:flex-row gap-8 md:gap-20 text-[#E9E9E9]">
+                <a class="link link-hover"> <span class="text-white">Home</span></a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Portfolio</a>
+                <a class="link link-hover">Blogs</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
 
+            <aside>
+                <button class="btn rounded-full bg-home-primary font-[900] text-xl">Book Consult <i
+                        class="fa-solid rounded-full bg-black p-2 size-8 text-white fa-arrow-up rotate-45"></i>
+                </button>
+            </aside>
+        </div>
     </footer>
+
 
 </body>
 
